@@ -8,7 +8,7 @@ public class Main {
 	public static void main(String[] args) {
 		Window window = new Window();
 		
-		JFrame frame = new JFrame("Function Grapher");
+		JFrame frame = new JFrame("Graph-It!");
 		frame.add(window);
 		frame.setResizable(false);
 		frame.pack();

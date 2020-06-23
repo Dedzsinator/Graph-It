@@ -137,12 +137,7 @@ public class ExpressionParser {
 	}
 	
 	private Quantity doOrderOfOperations(TokenString tokens) {
-		/*
-		 * Order of operations in reverse:
-		 * Addition, Subtraction, Division, Multiplication, Modulo, Exponentiation, Function, Parentheses, Variables, Numbers
-		 * All from right to left 
-		 */
-		int location = 0;	// Location of some operator
+		int location = 0;
 		Quantity ret = new Number(0.0);
 		
 		location = scanFromRight(tokens, TokenType.PLUS);

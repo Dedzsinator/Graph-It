@@ -23,7 +23,7 @@ public enum TokenType {
 	ABSOLUTE_VALUE("abs"),
 	COMMA(","),
 	X("x"),
-	Y("x"),
+	Y("y"),
 	Z("z"),
 	NUMBER("");
 	
